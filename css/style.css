@@ -716,6 +716,12 @@ nav a:hover
     padding-left: 0%;
 }
 
+.a_propos_lien
+{
+    display: block;
+    margin-bottom: 5%;
+}
+
 .nos_hebergements
 {
     margin-left: 18%;
