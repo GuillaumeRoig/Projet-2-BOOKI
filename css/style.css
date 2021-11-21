@@ -135,6 +135,11 @@ nav a:hover
     align-items: center;
 }
 
+#recherche a i
+{
+    display: none;
+}
+
 
 /*-- Filtres --*/
 

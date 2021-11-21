@@ -1,6 +1,90 @@
-@media all and (max-device-width: 768px){
+@media only screen and (max-width: 768px)
+{
+    #bloc_page
+    {
+        padding-top: none;
+        margin: auto;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    #en_tete
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0%;
+    }
+
+    #logo a
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav
+    {
+        width: auto;
+        text-align: center;
+    }
+
     nav a
     {
-        color: red;
+        color: #181818;
+        text-decoration: none;
+        width: 100%;
+        border-bottom: 3px solid #F2F2F2;
+        border-top: none;
     }
+
+    nav a:hover
+    {
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
+
+    #titre
+    {
+        padding-top: 30px;
+    }
+
+    #titre h1
+    {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    #titre h2
+    {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    #recherche
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0px
+    }
+
+    #recherche a i
+    {
+        background-color: #0065FC;
+        text-align: center;
+        color: #ffff;
+        font-weight: bold;
+        border: 1px solid #0065FC;
+        border-radius: 15px 15px 15px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #recherche a span
+    {
+        display: none;
+    }
+
 }
