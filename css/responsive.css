@@ -23,7 +23,6 @@
 
     nav
     {
-        width: auto;
         text-align: center;
     }
 
@@ -62,11 +61,17 @@
 
     #recherche
     {
+        width: auto;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin: 0px
+        margin: 0%;
+    }
+
+    #recherche a
+    {
+        border-radius: 15px 15px 15px 15px;
     }
 
     #recherche a i
@@ -76,13 +81,68 @@
         color: #ffff;
         font-weight: bold;
         border: 1px solid #0065FC;
-        border-radius: 15px 15px 15px 15px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     #recherche a span
+    {
+        display: none;
+    }
+
+    #filtre_container
+    {
+        display: block;
+    }
+
+    #filtre_container ul
+    {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #filtre_container li
+    {
+        margin-bottom: 3%;
+    }
+
+    #hebergements_container
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #populaires
+    {
+        width: 100%;
+    }
+
+    #hebergements
+    {
+        background-color: #ffff;
+        border: #ffff;
+        width: 100%;
+    }
+
+    #hebergements ul
+    {
+        width: 100%;
+    }
+
+    #activites
+    {
+        display: none;
+    }
+
+    #activites_container
+    {
+        display: none;
+    }
+
+    #bas_de_page
     {
         display: none;
     }
