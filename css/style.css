@@ -173,6 +173,26 @@ nav a:hover
     margin-right: 2.5%;
 }
 
+.item1 b
+{
+    width: 156px;
+}
+
+.item2 b
+{
+    width: 103px;
+}
+
+.item3 b
+{
+    width: 136px;
+}
+
+.item4 b
+{
+    width: 200px;
+}
+
 .filtre_item a
 {
     display: flex;
@@ -202,7 +222,6 @@ nav a:hover
 {
     display: block;
     justify-content: center;
-    width: 200px;
     margin-left: 5%;
 }
 
