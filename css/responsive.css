@@ -1,5 +1,7 @@
 @media only screen and (max-width: 768px)
 {
+    /*-- Eléments principaux de la page --*/
+
     #bloc_page
     {
         padding-top: 0%;
@@ -7,12 +9,16 @@
         font-family: 'Raleway', sans-serif;
     }
     
+    /*-- header --*/
+
     #en_tete
     {
         display: flex;
         flex-direction: column;
         margin: 0%;
     }
+
+    /*-- logo et navigation --*/
 
     #logo img
     {
@@ -61,6 +67,10 @@
         border-top: none;
     }
 
+    /*-- Main --*/
+
+    /*-- Titre --*/
+
     #titre
     {
         margin-top: 10%;
@@ -83,6 +93,8 @@
         margin-left: 5.6%;
         font-weight: normal;
     }
+
+    /*-- Formulaire --*/
 
     #recherche
     {
@@ -130,6 +142,8 @@
         display: none;
     }
 
+    /*-- Filtres --*/
+
     #filtre_container
     {
         display: block;
@@ -174,6 +188,8 @@
         margin-bottom: 3%;
     }
 
+    /*-- Point info --*/
+
     #info
     {
         margin-bottom: 5%;
@@ -181,10 +197,10 @@
     }
 
     #info a
-{
-    display: flex;
-    align-items: baseline;
-}
+    {
+        display: flex;
+        align-items: baseline;
+    }
 
     #info span
     {
@@ -200,11 +216,15 @@
         width: 25px;
     }
 
+    /*-- Section --*/
+
     #hebergements_container
     {
         display: flex;
         flex-direction: column-reverse;
     }
+
+    /*-- Les plus populaires --*/
 
     #populaires
     {
@@ -221,6 +241,8 @@
         flex-direction: column;
         align-items: center;
     }
+
+    /*-- Les 3 cards pour les plus populaires --*/
 
     .card_populaires
     {
@@ -249,6 +271,8 @@
         font-size: 12px;
     }
 
+    /*-- Hébergements à Marseille --*/
+
     #hebergements
     {
         margin-left: 0%;
@@ -264,6 +288,15 @@
         margin-left: 5.6%;
         font-size: 22px;
     }
+
+    #hebergements h2
+    {
+       font-size: 18px;
+       padding: 0%;
+       margin-left: 5.6%;
+    }
+
+    /*-- Les 6 cards pour les hébergements --*/
 
     .card
     {   
@@ -294,13 +327,7 @@
         font-size: 13px;
     }
 
-
-    #hebergements h2
-    {
-       font-size: 18px;
-       padding: 0%;
-       margin-left: 5.6%;
-    }
+    /*-- Activités à Marseille --*/
 
     #activites_container
     {
@@ -312,6 +339,8 @@
     {
         font-size: 22px;
     }
+
+    /*-- Card Activités --*/
 
     .activite_base
     {
@@ -337,6 +366,8 @@
         margin-top: 8%;
     }
 
+    /*-- Footer --*/
+    
     #bas_de_page h3
     {
         font-size: 18px;
