@@ -38,33 +38,30 @@
     {
         display: flex;
         justify-content: center;
-        border-bottom: 3px solid #F2F2F2;
-    }
-
-    nav:hover
-    {
-        border-bottom: 3px solid #0065FC;
     }
 
     nav ul
     {
-        padding: 0%;
+        padding: 0px;
     }
 
     nav a
     {
-        padding: 0%;
+        padding: 0px;
         padding-right: 67px;
         padding-left: 39px;
+        padding-bottom: 10px;
         color: #181818;
         text-decoration: none;
         border-top: none;
+        border-bottom: 3px solid #F2F2F2;
     }
 
     nav a:hover
     {
         color: #0065FC;
         border-top: none;
+        border-bottom: 3px solid #0065FC;
     }
 
     /*-- Main --*/
@@ -367,7 +364,7 @@
     }
 
     /*-- Footer --*/
-    
+
     #bas_de_page h3
     {
         font-size: 18px;
@@ -395,3 +392,423 @@
     }
 
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+{
+    /*-- Eléments principaux de la page --*/
+
+    #bloc_page
+    {
+        padding-top: 0%;
+        margin-top: 8%;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    /*-- header --*/
+
+    #en_tete
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+    }
+
+    /*-- logo et navigation --*/
+
+    #logo img
+    {
+        padding-left: 10%;
+        width: 93px;
+        height: 42px;
+        margin-left: 0%;
+    }
+
+    #logo a
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul
+    {
+        padding: 0px;
+    }
+
+    nav a
+    {
+        padding: 0px;
+        padding-right: 67px;
+        padding-left: 39px;
+        padding-bottom: 10px;
+        color: #181818;
+        text-decoration: none;
+        border-top: none;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    nav a:hover
+    {
+        color: #0065FC;
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
+    }
+
+    /*-- Main --*/
+
+    /*-- Titre --*/
+
+    #titre
+    {
+        margin-top: 10%;
+        padding: 0%;
+    }
+
+    #titre h1
+    {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 18px;
+        margin-left: 5.6%;
+        font-weight: bold;
+    }
+
+    #titre h2
+    {
+        display: flex;
+        font-size: 13px;
+        margin-left: 5.6%;
+        font-weight: normal;
+    }
+
+    /*-- Formulaire --*/
+
+    #recherche
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0%;
+        margin-left: 5.6%;
+    }
+
+    #recherche i
+    {
+        width: 45px; 
+        height: 45px;
+    }
+
+    #recherche input
+    {
+        width: 200px; 
+        height: 41px;
+    }
+
+    #recherche a
+    {
+        width: 50px; 
+        height: 45px;
+        border-radius: 15px 15px 15px 15px;
+    }
+
+    #recherche a i
+    {
+        height: 12px;
+        background-color: #0065FC;
+        text-align: center;
+        color: #ffff;
+        font-weight: bold;
+        border: 1px solid #0065FC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #recherche a span
+    {
+        display: none;
+    }
+
+    /*-- Filtres --*/
+
+    #filtre_container
+    {
+        display: block;
+        margin-left: 5.6%;
+    }
+
+    #filtre_container ul
+    {
+        padding: 0%;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item1 b
+    {
+        width: 124px;
+    }
+
+    .item2 b
+    {
+        width: 88px;
+    }
+
+    .item3 b
+    {
+        width: 118px;
+    }
+
+    .item4 b
+    {
+        width: 172px;
+    }
+
+    .filtre_item a
+    {
+        font-size: 17px;
+    }
+
+    #filtre_container li
+    {
+        margin-bottom: 3%;
+    }
+
+    /*-- Point info --*/
+
+    #info
+    {
+        margin-bottom: 5%;
+        font-size: 16px;
+    }
+
+    #info a
+    {
+        display: flex;
+        align-items: baseline;
+    }
+
+    #info span
+    {
+        margin-right: 4%;
+        height: 25px;
+        width: 25px;
+    }
+
+    #info i
+    {
+        font-size: 16px;
+        height: 25px;
+        width: 25px;
+    }
+
+    /*-- Section --*/
+
+    #hebergements_container
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /*-- Les plus populaires --*/
+
+    #populaires
+    {
+        margin-right: 0%;
+        border-radius: 0;
+        width: 100%;
+        padding: 0%;
+    }
+
+    #populaires ul
+    {
+        padding-left: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*-- Les 3 cards pour les plus populaires --*/
+
+    .card_populaires
+    {
+        width: 325px;
+        height: 125px;
+    }
+
+    .card_image_populaires img
+    {
+        width: 125px;
+        height: 125px;
+    }
+
+    .card_title_populaires
+    {
+        font-size: 15px;
+    }
+
+    .card_price_populaires
+    {
+        font-size: 12px;
+    }
+
+    .card_star_populaires
+    {
+        font-size: 12px;
+    }
+
+    /*-- Hébergements à Marseille --*/
+
+    #hebergements
+    {
+        margin-left: 0%;
+        background-color: #ffff;
+        border: #ffff;
+        width: 100%;
+    }
+
+    #hebergements h1
+    {
+        padding: 0%;
+        margin-top: 8%;
+        margin-left: 5.6%;
+        font-size: 22px;
+    }
+
+    #hebergements h2
+    {
+        font-size: 18px;
+        padding: 0%;
+        margin-left: 5.6%;
+    }
+
+    /*-- Les 6 cards pour les hébergements --*/
+
+    .card
+    {   
+        width: 325px;
+        padding: 1%;
+        margin-bottom: 2%;
+        box-shadow: 2px 2px 20px #D9D9D9;
+    }
+
+    .card_image img
+    {
+        width: 325px;
+        height: 100px;
+    }
+
+    .card_title
+    {
+        font-size: 15px;
+    }
+
+    .card_price
+    {
+        font-size: 14px;
+    }
+
+    .card_star
+    {
+        font-size: 13px;
+    }
+
+    /*-- Activités à Marseille --*/
+
+    #activites_container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+    }
+
+    #activites h1
+    {
+        font-size: 22px;
+    }
+
+    /*-- Card Activités --*/
+
+    .activite_base
+    {
+        width: 325px;
+        height: 180px;
+        margin-bottom: 20%;
+    }
+
+    .activite_base img
+    {
+        height: 115px;
+    }
+
+    .card_activites_text
+    {
+        font-size: 15px;
+    }
+
+    #bas_de_page
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+    }
+
+    /*-- Footer --*/
+
+    #bas_de_page
+    {
+        border: 1px solid #F2F2F2;
+        background-color: #F2F2F2;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .a_propos
+    {
+        margin-left: 5.6%;
+    }
+
+    .a_propos ul
+    {
+        list-style-type: none;
+        padding-left: 0%;
+    }
+
+    .a_propos_lien
+    {
+        display: block;
+        margin-bottom: 5%;
+    }
+
+    .nos_hebergements
+    {
+        margin-left: 10%;
+    }
+
+    .nos_hebergements ul
+    {
+        list-style-type: none;
+        padding-left: 0%;
+    }
+
+    .assistance
+    {
+        margin-left: 10%;
+    }
+
+    .assistance ul
+    {
+        list-style-type: none;
+        padding-left: 0%;
+    }
+}    
