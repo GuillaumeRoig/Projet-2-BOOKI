@@ -684,6 +684,7 @@ nav a:hover
     height: 185px;
     border-radius: 15px 15px 0px 0px;
     object-fit: cover;
+    position: relative;
 }
 
 .card_activites_3 img

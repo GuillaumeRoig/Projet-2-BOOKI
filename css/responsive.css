@@ -2,7 +2,8 @@
 {
     #bloc_page
     {
-        padding-top: none;
+        padding-top: 0%;
+        margin-top: 8%;
         font-family: 'Raleway', sans-serif;
     }
     
@@ -13,46 +14,73 @@
         margin: 0%;
     }
 
+    #logo img
+    {
+        padding-left: 10%;
+        width: 93px;
+        height: 42px;
+        margin-left: 0%;
+    }
+
     #logo a
     {
         display: flex;
         justify-content: center;
     }
 
+    nav
+    {
+        display: flex;
+        justify-content: center;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    nav:hover
+    {
+        border-bottom: 3px solid #0065FC;
+    }
+
+    nav ul
+    {
+        padding: 0%;
+    }
+
     nav a
     {
+        padding: 0%;
+        padding-right: 67px;
+        padding-left: 39px;
         color: #181818;
         text-decoration: none;
-        border-bottom: 3px solid #F2F2F2;
         border-top: none;
     }
 
     nav a:hover
     {
         color: #0065FC;
-        border-bottom: 3px solid #0065FC;
         border-top: none;
     }
 
     #titre
     {
-        padding: 10% 0 0 0;
+        margin-top: 10%;
+        padding: 0%;
     }
 
     #titre h1
     {
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
         font-size: 18px;
+        margin-left: 5.6%;
         font-weight: bold;
     }
 
     #titre h2
     {
         display: flex;
-        justify-content: center;
         font-size: 13px;
+        margin-left: 5.6%;
         font-weight: normal;
     }
 
@@ -74,18 +102,19 @@
     #recherche input
     {
         width: 200px; 
-        height: 45px;
+        height: 41px;
     }
 
     #recherche a
     {
-        width: 65px; 
+        width: 50px; 
         height: 45px;
         border-radius: 15px 15px 15px 15px;
     }
 
     #recherche a i
     {
+        height: 12px;
         background-color: #0065FC;
         text-align: center;
         color: #ffff;
@@ -104,6 +133,7 @@
     #filtre_container
     {
         display: block;
+        margin-left: 5.6%;
     }
 
     #filtre_container ul
@@ -112,6 +142,31 @@
         list-style-type: none;
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .item1 b
+    {
+        width: 124px;
+    }
+
+    .item2 b
+    {
+        width: 88px;
+    }
+
+    .item3 b
+    {
+        width: 118px;
+    }
+
+    .item4 b
+    {
+        width: 172px;
+    }
+
+    .filtre_item a
+    {
+        font-size: 17px;
     }
 
     #filtre_container li
@@ -156,6 +211,7 @@
         margin-right: 0%;
         border-radius: 0;
         width: 100%;
+        padding: 0%;
     }
 
     #populaires ul
@@ -201,9 +257,19 @@
         width: 100%;
     }
 
+    #hebergements h1
+    {
+        padding: 0%;
+        margin-top: 8%;
+        margin-left: 5.6%;
+        font-size: 22px;
+    }
+
     .card
     {   
         width: 325px;
+        padding: 1%;
+        margin-bottom: 2%;
         box-shadow: 2px 2px 20px #D9D9D9;
     }
 
@@ -213,24 +279,88 @@
         height: 100px;
     }
 
-    #hebergements h2
+    .card_title
     {
-        display: none;
+        font-size: 15px;
     }
 
-    #activites
+    .card_price
     {
-        display: none;
+        font-size: 14px;
+    }
+
+    .card_star
+    {
+        font-size: 13px;
+    }
+
+
+    #hebergements h2
+    {
+       font-size: 18px;
+       padding: 0%;
+       margin-left: 5.6%;
     }
 
     #activites_container
     {
-        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #activites h1
+    {
+        font-size: 22px;
+    }
+
+    .activite_base
+    {
+        width: 325px;
+        height: 180px;
+        margin-bottom: 20%;
+    }
+
+    .activite_base img
+    {
+        height: 115px;
+    }
+
+    .card_activites_text
+    {
+        font-size: 15px;
     }
 
     #bas_de_page
     {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+    }
+
+    #bas_de_page h3
+    {
+        font-size: 18px;
+    }
+
+    .a_propos
+    {
+        margin-top: 8%;
+    }
+
+    .a_propos_lien
+    {
+        font-size: 16px;
+    }
+
+    .nos_hebergements
+    {
+        margin-left: 5.6%;
+    }
+
+    .assistance
+    {
+        margin-left: 5.6%;
+        margin-bottom: 8%;
     }
 
 }
