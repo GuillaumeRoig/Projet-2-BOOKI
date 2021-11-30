@@ -744,6 +744,11 @@
         margin-bottom: 20%;
     }
 
+    .activites_bloc
+    {
+        width: auto;
+    }
+
     .activite_base img
     {
         height: 115px;
